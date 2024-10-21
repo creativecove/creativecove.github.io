@@ -1,0 +1,164 @@
+/* CSS Reset */
+*{
+	font-family: Cinzel, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.logo{
+	padding: 5%;
+	width: 90%;
+}
+
+.banner{
+	padding: 1%;
+	width: 98%;
+	display: block;
+}
+
+body{
+	background-color: #ddddee;
+}
+
+/* Mobile Viewport */
+
+.mobile{
+	display: block;
+}
+.tablet-pc{
+	display: none;
+}
+
+nav{
+	background-color: #9999aa;
+	color: #666677;
+	padding: 1%;
+	margin: 1%;
+	margin-bottom: 1%;
+	font-size: 2.75em;
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	color: #eeeeff;
+	border-top: 2px solid #ddddee;
+}
+
+nav li:first-child{
+	border-top: none;
+}
+
+nav li a{
+	color: #bbbbcc;
+	text-decoration: none;
+}
+
+.a{
+	background-color: #666677;
+}
+
+.b{
+	background-color: #777788;
+}
+
+main{
+	background-color: #eeeeff;
+	color: #000011;
+	padding: 1%;
+	margin: 1%;
+	font-size: 1.75em;
+}
+
+footer{
+	text-align: center;
+	font-size: 0.75em;
+}
+
+/* Tablet Viewport */
+
+@media screen and (min-width: 620px), print {
+	.mobile{
+		display: none;
+	}
+	.tablet-pc{
+		display: block;
+	}
+	
+	
+}
+
+/* Desktop Viewport */
+
+/* Large Desktop Viewport */
+
+
+
+/* Break */
+
+
+
+/*
+.navtest {
+	font-size: 100px;
+}
+
+.maintest {
+	color: #ff0000;
+}
+
+.footertest {
+	background-color: #0000ff;
+}
+
+#hide-show {
+	opacity: 0;
+	animation-name: hide-show;
+	animation-duration: 6000s;
+}
+
+@keyframes hide-show {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+#tester {
+	opacity: 0;
+	animation-name: tester;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes tester {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+div#tester {
+	transform: translate(20px, 10px);
+	transform: rotate(5deg);
+	transform: scaleY(10);
+	background-color: #ff0000;
+}
+
+#tester2 {
+	transform: rotate(0deg);
+	animation-name: tester2;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	background-color: #00ff00;
+}
+
+@keyframes tester2 {
+	0% {transform: rotate(0deg);}
+	25% {transform: rotate(90deg);}
+	50% {transform: rotate(180deg);}
+	75% {transform: rotate(270deg);}
+	100% {transform: rotate(359deg);}
+}
+*/

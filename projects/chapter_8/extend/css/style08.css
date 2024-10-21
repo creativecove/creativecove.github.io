@@ -1,0 +1,64 @@
+/*
+Author: Lorenzo Amato
+Date: 10/17/2024
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+	background-color: #ffe5dc;
+	font-family: sans-serif;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style for the table elements */
+
+caption {
+	font-weight: bold;
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+	border: 3px solid #fd4d0c;
+	box-shadow: 12px 12px 30px #792101;
+}
+
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+th {
+	color: #ffffff;
+	background-color: #792101;
+}
+
+th, td {
+	border: 1px solid #7188bb;
+}
+
+td {
+	text-align: center;
+	border-color: #a22c02
+}
+
+tr:nth-child(odd) {
+	background-color: #fe9772;
+}

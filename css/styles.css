@@ -84,6 +84,14 @@ nav li a{
 	background-color: #666677;
 }
 
+main li a:link{
+	color: #06063f;
+}
+
+main li a:visited{
+	color: #06063f;
+}
+
 .b{
 	background-color: #777788;
 }
@@ -135,6 +143,10 @@ iframe{
 		width: 80%;
 	}
 
+	a:hover{
+		color: #9999e0;
+	}
+
 	nav{
 		font-size: 1.5em;
 		width: 20%;
@@ -155,6 +167,11 @@ iframe{
 	main img{
 		width: 150px;
 		height: 150px;
+	}
+
+	.big:hover{
+		box-shadow: 10px 10px 50px #000000;
+		transform: scale(2, 2);
 	}
 
 }

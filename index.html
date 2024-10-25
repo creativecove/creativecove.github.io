@@ -2,46 +2,72 @@
 <!-- This website was created by: Lorenzo Amato -->
 <html lang="en">
 <head>
-	<title> Main Page - Lorenzo's Portfolio </title>
+	<title> Home Page - Lorenzo's Portfolio </title>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" href="images/potion1.png">
-	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="shortcut icon" href="images/icon_b.png">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-	<nav>
-		<p> <a href="index.html">Home</a> &#160; &#9475; &#160; <a href="projects.html">Projects</a> &#160; &#9475; &#160; <a href="background.html">Behind the Scenes</a> &#160; &#9475; &#160; <a href="achievements.html">Major Achievements</a> &#160; &#9475; &#160; <a href="contact.html">Don't Contact Me</a> </p> <hr>
-	</nav>
-
+	<!-- Location: Logo -->
 	<header>
-		<h1> Lorenzo's Portfolio </h1>
-		<a href="https://simple.wikipedia.org/wiki/Special:Random">Wiki</a>
-		<img src="images/ports.png"; alt="Emoji Pointing Up"; height="200"; width="320";>
+		<div class="mobile">
+			<img class="logo" src="images/logo.png" alt="Image of Logo">
+		</div>
+		<div class="tablet-pc">
+			<img class="logo left" src="images/logo.png" alt="Image of Logo">
+		</div>
+		<div>
+			<img class="banner right" src="images/banner_gif.gif" alt="Image of Banner">
+		</div>
 	</header>
 
-	<main>
-		<br>
-		<t style="color: #0000ff; font-size: 30px"> Blue Text Tester </t>
-		<img src="images/potion1.png"; alt="Blue Bottle"; height="16"; width="16">
-		<a href="#feet" target="_blank"> <img src="images/potion1.png"; alt="Blue Bottle"; height="16"; width="16"> </a>
-		<br>
-		<ul> Ah:
-			<li> Nothing
-			<li> More Nothing
-			<li> Even More Nothing
+	<div class="clear"></div>
+	
+	<!-- Location: Navagation -->
+	<nav class="left">
+		<h2> Locate </h2>
+		<ul>
+			<li class="a"> <a href="index.html">Home</a> </li>
+			<li class="b"> <a href="assignments.html">School Projects</a> </li>
+			<li class="a"> <a href="projects.html">Personal Projects</a> </li>
+			<li class="b"> <a href="relax.html">Where To Relax</a> </li>
+			<li class="a"> <a href="games.html">Games</a> </li>
+			<li class="b"> <a href="highs.html">Highlights</a> </li>
+			<li class="a"> <a href="feedback.html">Feedback</a> </li>
+			<!-- Pseudo-class, Figure, Grid, Shadow, Table, Form, Hamburger, Transform-->
 		</ul>
-		<br>
-		<ol> Ah:
-			<li> Nothing </li>
-			<li> More Nothing </li>
-			<li> Even More Nothing </li>
-		</ol>
-		<br>
+	</nav>
+	
+	<!-- Location: Main Page -->
+	<main class="mobile">
+	<!-- Sub-Location: Mobile Ver -->
+		<div class="mobile">
+			<h1> Welcome </h1>
+			<h3> What is this website? </h3>
+			<p> The website before you is a portfolio of many different things. It has information about projects, some of my favorite games and highlights, as well as much more. I do also have a form to fill out once you feel you are ready to answer it. </p>
+			<t></t>
+		</div>
 	</main>
-
-	<footer id="feet">
-		<p> The void at the bottom of the page.</p>
+		
+	<main class="tablet-pc right">
+	<!-- Sub-Location: Tablet & PC Ver -->
+		<div class="tablet-pc">
+			<h1> Welcome to the Home Page </h1>
+			<h3> What is this website? </h3>
+			<p> The website before you is a collection of different things, all wrapped up into one big portfolio of a webpage. It has information about projects, both current and past, it has some of my favorite games and highlights from all through out, it has a selection of different music I've listened to, and it even has a map to a wonderful fishing spot. I do also have a form to fill out once you feel you are ready to answer it. </p>
+			<t></t>
+		</div>
+	</main>
+	
+	<!-- Location: Footer -->
+	<footer class="clear">
+		<p> &#169;Copyright 2024. All Rights Reserved. </p>
 	</footer>
 
-</body>
 </html>
+</body>
